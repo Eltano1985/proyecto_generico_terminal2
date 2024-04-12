@@ -12,8 +12,14 @@ for (let contador = 0; contador < 3; contador++) {
     if (opcionIngresada == "+") {
         resultadoTotal = numeroIngresado + resultadoTotal;
         console.log("El resultado total es", resultadoTotal);
-        
-    }
+
+    } else if(opcionIngresada == "-")
+        resultadoTotal = numeroIngresado - resultadoTotal;
+        console.log("El resultado total es", resultadoTotal);
+    
+    
+    
+    
 
 
 
