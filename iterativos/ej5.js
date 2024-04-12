@@ -6,7 +6,7 @@ let resultadoTotal = 0;
 for (let contador = 0; contador < 3; contador++) {
     console.log("Ingresa un numero");
     numeroIngresado = Number(leer());
-    console.log();
+    
     console.log("Quiere sumar (+) o restar (-)");
     opcionIngresada = leer();
     if (opcionIngresada == "+") {
